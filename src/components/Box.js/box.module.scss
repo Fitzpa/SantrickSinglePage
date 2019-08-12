@@ -131,3 +131,31 @@ span {
     font-size: 12px;
   }
 }
+
+@media (max-width: 900px) {
+  .box_container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    height: 90vh;
+    margin: 0;
+    position: relative;
+  }
+  .player_styles {
+    display: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+    transition: 0.5s all;
+  }
+  #burrowVideo {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+  .tile {
+margin: auto;
+height: auto;
+  }
+}
