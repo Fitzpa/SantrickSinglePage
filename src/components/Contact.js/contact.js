@@ -11,7 +11,7 @@ const ContactPage = () => {
         <form
           className={contactStyles.contactForm}
           name="contactform"
-          method="POST"
+          action="POST"
           data-netlify="true"
         >
           <h1 className={contactStyles.contact_title}>Contact</h1>
