@@ -8,12 +8,8 @@ const ContactPage = () => {
   return (
     <section id="contact" className={contactStyles.texture_container}>
       <div className={contactStyles.container}>
-        <form
-          className={contactStyles.contactForm}
-          name="contactform"
-          action="POST"
-          data-netlify="true"
-        >
+      <form name="contact" method="POST" data-netlify="true" className={contactStyles.contactForm}>
+          
           <h1 className={contactStyles.contact_title}>Contact</h1>
           <p>
             <label className={contactStyles.label_container}>
@@ -32,7 +28,7 @@ const ContactPage = () => {
               <input
                 className={contactStyles.input_container}
                 type="email"
-                name="email"
+                name="emailaddress"
                 required
               />
             </label>
@@ -42,7 +38,7 @@ const ContactPage = () => {
               Message:{" "}
               <textarea
                 className={contactStyles.textarea_container}
-                name="message"
+                name="messagecontents"
                 required
               ></textarea>
             </label>
