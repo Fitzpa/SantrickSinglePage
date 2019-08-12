@@ -1,0 +1,20 @@
+@import "../styles/colors";
+
+.title {
+  padding: 2rem 0 0 2rem;
+  font-weight: 700;
+  font-size: 7rem;
+  display: block;
+  color: $color-dark;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+}
+
+.child {
+  scroll-snap-align: start;
+}
+
+@media (max-width: 700px) {
+}

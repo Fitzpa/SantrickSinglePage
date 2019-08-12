@@ -1,0 +1,137 @@
+@import "../../styles/colors";
+.tiles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Brand_h2 {
+  padding-top: 2rem;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 15px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: $color-black;
+}
+.icons_h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+.h3Style {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+.icons {
+  filter: invert(13%) sepia(0%) saturate(0%) hue-rotate(318deg) brightness(96%)
+    contrast(81%);
+  width: 4.5rem;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  
+  background-color: $color-black;
+}
+.statementContainer {
+  background-color: $color-black;
+  position: relative;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 4rem 0.5rem 4rem;
+  margin: auto;
+}
+.statementContent {
+  background-color: $color-black;
+  color: $color-white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 2rem 4rem;
+  margin: auto;
+}
+.titleContainer {
+  height: 50%;
+  width: 960px;
+  margin: auto 0;
+}
+.items_container {
+  width: 960px;
+  height: 50%;
+  margin: auto 0;
+  strong {
+    padding-right: 0.5rem;
+  }
+}
+.whtBtn {
+  filter: invert(91%) sepia(45%) saturate(2%) hue-rotate(69deg) brightness(109%)
+    contrast(100%);
+}
+.dwnBtn {
+  height: 100%;
+  margin: auto;
+}
+.dwnBtn_container {
+  height: 10vh;
+  margin: auto;
+}
+.title {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 52px;
+
+  height: 50vh;
+  padding: 0;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 36px;
+}
+
+@media (max-width: 900px) {
+  .statementContent {
+    background-color: $color-black;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0.5rem;
+    margin: auto 0;
+  }
+
+  .titleContainer {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .items_container {
+    width: 100%;
+    height: 50%;
+    margin: auto 0;
+    strong {
+      padding-right: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+@import "../../styles/colors";
+
+.container {
+  background-color: $color-white;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem 4rem 0.5rem 4rem;
+}
+.container_columns {
+  background-color: $color-white;
+  height: 85vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 4rem 0.5rem 4rem;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  padding: 32px 0;
+}
+
+.container_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 70%;
+}
+
+.column_ {
+  &1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  &2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  &items {
+    margin: 0 auto 40px auto;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+.dwnBtn {
+  height: 100%;
+  margin: auto;
+}
+.dwnBtn_container {
+  height: 10vh;
+  margin: auto;
+}
+
+@media (max-width: 1030px) {
+  .container_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+  }
+
+  .column_items {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 715px) {
+  .column_items {
+    margin: 0 auto 30px auto;
+  }
+  .container_columns {
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+}
+@media (max-width: 582px) {
+  .column_items {
+    width: 80%;
+  }
+  .container_columns {
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+}

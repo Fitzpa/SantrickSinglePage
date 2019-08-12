@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+
+.container {
+  background: #000;
+}
+.portfolio_container {
+  background-color: $color-black;
+  height: 100vh;
+  position: relative;
+}
+.dwnBtn {
+  height: 100%;
+  margin: auto;
+}
+.dwnBtn_container {
+  height: 10vh;
+  margin: auto;
+}

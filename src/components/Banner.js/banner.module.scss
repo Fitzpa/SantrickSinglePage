@@ -1,0 +1,151 @@
+@import "../../styles/colors";
+
+.Banner_bg {
+  background-image: url("../../images/bg-lg.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Banner {
+  display: block;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    rgba(210, 253, 255, 0.6) 0%,
+    rgba(2.5, 253, 255, 0.9) 40%,
+    rgba(180, 223, 229, 0.9) 60%,
+    rgba(0.98, 223, 229, 1) 100%
+  );
+}
+.h1_title {
+  text-align: center;
+  font-weight: 700;
+  line-height: 7rem;
+  font-size: 6rem;
+  margin: 0;
+  max-width: 600px;
+}
+.h2_title_caption {
+  padding-bottom: 2rem;
+  height: 20vh;
+  font-size: 2rem;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+}
+.Banner_container {
+  padding: 0 2rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  height: 70vh;
+}
+.dwnBtn {
+  height: 100%;
+  margin: auto;
+}
+.dwnBtn_container {
+  height: 10vh;
+  margin: auto;
+}
+.container {
+  &_left {
+    display: flex;
+    width: 600px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}
+#displaynone {
+  content: "";
+  display: none;
+}
+.spinner_container {
+  margin: auto 0;
+  width: 30%;
+}
+.spinner {
+  // filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(100%);
+  width: 100%;
+  height: auto;
+}
+.bg_img {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+
+@media (max-width: 1144px) {
+  .h2_title_caption {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .Banner_bg {
+    background-image: url("../../images/bg-med.jpg");
+  }
+  .h2_title_caption {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .h2_title_caption {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .Banner {
+    margin: 0 auto;
+  }
+  .spinner_container {
+    margin: 0 auto;
+    width: 30%;
+  }
+  .Banner_container {
+    height: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  .h2_title_caption {
+    padding-top: 1rem;
+    padding-bottom: 0;
+    height: 80px;
+  }
+  .container {
+    &_left {
+      padding-top: 0;
+      width: 100%;
+      height: 250px;
+      margin: 0 auto;
+    }
+  }
+  .spinner {
+    padding: 1rem 1rem 0 1rem;
+  }
+  .bg_img {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .h1_title {
+    text-align: center;
+    font-weight: 700;
+    line-height: 7rem;
+    font-size: 6rem;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+}

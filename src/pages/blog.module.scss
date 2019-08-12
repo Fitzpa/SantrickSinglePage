@@ -1,0 +1,51 @@
+@import "../styles/colors";
+.posts {
+  list-style-type: none;
+  margin: 15px;
+}
+.blog_container {
+  height: 100vh;
+  padding-top: 15px;
+  background: linear-gradient(
+    130deg,
+    rgba(174, 223, 214, 0.6) 0%,
+    rgba(174, 223, 214, 0.9) 50%,
+    rgba(210, 253, 255, 0.9) 50%,
+    rgba(210, 253, 255, 1) 100%
+  );
+}
+.title {
+  margin: 0 15px 15px 15px;
+  color: $color-black;
+}
+
+.post {
+  margin: 1rem 0;
+
+  a {
+    background-color: $color-blue;
+    color: $color-black;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s all;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.17);
+  }
+
+  a:hover {
+    background-color: $color-black;
+    color: $color-blue;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3), 0 3px 15px rgba(0, 0, 0, 0.17);
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    color: $color-blue;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+}
