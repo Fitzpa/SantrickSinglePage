@@ -8,7 +8,7 @@ const ContactPage = () => {
   return (
     <section id="contact" className={contactStyles.texture_container}>
       <div className={contactStyles.container}>
-      <form name="contact" method="POST" data-netlify="true" className={contactStyles.contactForm}>
+      <form name="contact" method="POST" action="POST" data-netlify="true" className={contactStyles.contactForm}>
           
           <h1 className={contactStyles.contact_title}>Contact</h1>
           <p>
