@@ -63,7 +63,7 @@ const ContactPage = () => {
                 </div>
 
                 <h3 className={contactStyles.caption}>
-                  Santrick.digital@gmail.com
+                  Santrick.Digital@gmail.com
                 </h3>
               </a>
             </li>
