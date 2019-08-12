@@ -10,7 +10,7 @@ const ContactPage = () => {
       <div className={contactStyles.container}>
         <form
           className={contactStyles.contactForm}
-          name="contact"
+          name="contactform"
           method="POST"
           data-netlify="true"
         >
