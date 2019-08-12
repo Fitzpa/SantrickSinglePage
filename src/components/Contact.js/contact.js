@@ -12,7 +12,6 @@ const ContactPage = () => {
           className={contactStyles.contactForm}
           name="contact"
           method="POST"
-          data-netlify-recaptcha="true"
           data-netlify="true"
         >
           <h1 className={contactStyles.contact_title}>Contact</h1>
@@ -48,7 +47,6 @@ const ContactPage = () => {
               ></textarea>
             </label>
           </p>
-          <div data-netlify-recaptcha="true"></div>
           <p className={contactStyles.submitBtnContainer}>
             <button className={contactStyles.submitBtn} type="submit">
               Send
