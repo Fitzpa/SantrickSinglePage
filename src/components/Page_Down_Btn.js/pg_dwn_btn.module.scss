@@ -17,7 +17,7 @@
   transition: all 0.3s;
   cursor: pointer;
   &:hover {
-    transform: scale(1.1);
+    filter: invert(38%) sepia(0%) saturate(635%) hue-rotate(135deg) brightness(98%) contrast(80%);
   }
 }
 
@@ -31,6 +31,6 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   &:hover {
-    transform: scale(1.1);
+    filter: invert(16%) sepia(14%) saturate(18%) hue-rotate(14deg) brightness(102%) contrast(90%);
   }
 }
