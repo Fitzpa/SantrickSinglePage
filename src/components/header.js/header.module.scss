@@ -141,6 +141,10 @@ a {
   font-weight: bold;
 }
 @media (max-width: 658px) {
+  .navList {
+    padding-right: 0;
+  }
+
   .header {
     display: block;
     height: 95px;
