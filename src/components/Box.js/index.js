@@ -14,15 +14,15 @@ const Box = () => {
           <span className={boxStyles.tileInfo}>Out on the Warf</span>
         </div>
       </div>
-      <div id="burrowVideo" className={boxStyles.tile}>
+      <span id="burrowVideo" className={boxStyles.tile}>
         <video src={burrow} type="video/mp4" loop="true" autoplay="true" className={boxStyles.player_styles}>
           Your Browser Does Not Support This Video
         </video>
-        <div className={boxStyles.details}>
+        <span className={boxStyles.details}>
           <span className={boxStyles.tileTitle}>The Burrow</span>
           <span className={boxStyles.tileInfo}>Lets throw some axes!</span>
-        </div>
-      </div>
+        </span>
+      </span>
     </div>
   )
 }
