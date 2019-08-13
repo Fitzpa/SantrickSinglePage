@@ -24,7 +24,7 @@ const SlideShow = () => {
           <img src={maynards1} alt="maynards2" />
         </div>
         <div>
-          <img src={maynards2} alt="maynards3" />
+          <img src={maynards2} alt="maynards-3" />
         </div>
       </Carousel>
     </div>
