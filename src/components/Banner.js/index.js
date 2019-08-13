@@ -30,7 +30,7 @@ const Banner = ({ title }) => {
             />
           </div>
           <div className={bannerStyles.container_left}>
-            <h1 className={bannerStyles.h1_title}>SANTRICK DIGITAL</h1>
+            <h1 className={bannerStyles.h1_title}>Santrick Digital</h1>
           </div>
         </div>
         <h2 className={bannerStyles.h2_title_caption}>

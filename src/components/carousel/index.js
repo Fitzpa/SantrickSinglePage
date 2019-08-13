@@ -18,15 +18,15 @@ const SlideShow = () => {
         height="100%"
       >
         <div>
-          <img src={maynards} />
+          <img src={maynards} alt="maynards1" />
           <p className="legend">Maynards</p>
         </div>
         <div>
-          <img src={maynards1} />
+          <img src={maynards1} alt="maynards2" />
           <p className="legend">Maynards</p>
         </div>
         <div>
-          <img src={maynards2} />
+          <img src={maynards2} alt="maynards3" />
           <p className="legend">Maynards</p>
         </div>
       </Carousel>
