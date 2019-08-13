@@ -14,16 +14,16 @@ const Expertise = () => {
               Web Design & Development
             </h2>
             <h2 className={ExpertiseStyle.column_items}>
-              Technology Advisement
+              Technology Consulting
             </h2>
             <h2 className={ExpertiseStyle.column_items}>Brand Strategy</h2>
           </div>
           <div className={ExpertiseStyle.column_2}>
             <h2 className={ExpertiseStyle.column_items}>
-              Digital & Social Marketing
+              Social Media Management
             </h2>
             <h2 className={ExpertiseStyle.column_items}>Lead Generation</h2>
-            <h2 className={ExpertiseStyle.column_items}>Process Improvement</h2>
+            <h2 className={ExpertiseStyle.column_items}>Digital Advertising</h2>
           </div>
         </div>
       </div>
