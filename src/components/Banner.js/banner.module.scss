@@ -191,8 +191,8 @@
     height: 200px;
   }
   .Banner_container {
-    height: 500px;
-    padding-top: 2rem;
+    height: 600px;
+    padding: 2rem 2rem 4rem 2rem;
     margin-top: 0;
   }
   .container_left {
@@ -212,7 +212,6 @@
 }
 @media (max-width: 447px) {
   .Banner_container {
-    height: 500px;
     padding-bottom: 0;
   }
   .container_left {
