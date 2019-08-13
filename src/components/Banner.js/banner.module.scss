@@ -86,7 +86,6 @@
   margin: auto;
 }
 
-
 @media (max-width: 1144px) {
   .h2_title_caption {
     font-size: 1.5rem;
@@ -100,7 +99,6 @@
     font-size: 1.2rem;
   }
 }
-
 
 @media (max-width: 900px) {
   .Banner {
@@ -171,12 +169,12 @@
     height: 600px;
   }
   .container_left {
-    height: 200px
+    height: 200px;
   }
   .h2_title_caption {
     font-size: 1rem;
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
   }
   .h1_title {
     text-align: center;
@@ -193,12 +191,9 @@
   }
   .container_left {
     height: 200px;
-    
-
   }
   .h2_title_caption {
     font-size: 1rem;
-    
   }
   .h1_title {
     text-align: center;
