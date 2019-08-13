@@ -34,10 +34,12 @@ const Banner = ({ title }) => {
           </div>
         </div>
         <h2 className={bannerStyles.h2_title_caption}>
-          We generate advertisements and web technologies that lead clients to
-          your business
+          Creating web sites and social media strategies that work together as
+          one.
         </h2>
-        <Pgdwnbtn className={bannerStyles.dwnBtn} />
+        <a href="#missionStatement" className={bannerStyles.dwnBtn_container}>
+          <Pgdwnbtn className={bannerStyles.dwnBtn} />
+        </a>
       </div>
     </section>
   )

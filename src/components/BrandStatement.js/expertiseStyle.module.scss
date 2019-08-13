@@ -3,7 +3,7 @@
 .container {
   background-color: $color-white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 2rem 4rem 0.5rem 4rem;
 }
 .container_columns {
@@ -54,7 +54,7 @@
   margin: auto;
 }
 .dwnBtn_container {
-  height: 10vh;
+  height: 50px;
   margin: auto;
 }
 

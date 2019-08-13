@@ -84,7 +84,14 @@
   height: auto;
   margin: auto;
 }
-
+.dwnBtn {
+  height: 100%;
+  margin: auto;
+}
+.dwnBtn_container {
+  height: 50px;
+  margin: auto;
+}
 @media (max-width: 1144px) {
   .h2_title_caption {
     font-size: 1.5rem;

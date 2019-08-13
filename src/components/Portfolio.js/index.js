@@ -14,8 +14,7 @@ const Portfolio = () => {
         controls="true"
         volume="0"
         muted="true"
-        height="auto"
-        width="50%"
+        className={portfolioStyles.videocontainer}
       />
     </section>
   )

@@ -29,8 +29,10 @@ const MissionStatement = () => {
             </p>
           </div>
         </div>
-        
-      <a href="#expertise" className={BrandStyles.dwnBtn_container}><WhtPgdwnbtn className={BrandStyles.dwnBtn} /></a>
+
+        <a href="#headshots" className={BrandStyles.dwnBtn_container}>
+          <WhtPgdwnbtn className={BrandStyles.dwnBtn} />
+        </a>
       </div>
     </section>
   )

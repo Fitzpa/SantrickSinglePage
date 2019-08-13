@@ -2,12 +2,10 @@
 .thumbnails {
   background-color: rgba(174, 223, 214, 1);
   min-height: 100vh;
-  display: grid;
   margin: auto;
-  grid-template-columns: 1fr;
 }
 .thumbscontainer {
-  display: grid;
+  height: 70vh;
   display: grid;
   margin: auto;
   width: 100%;
@@ -144,6 +142,15 @@
     transition: 0.5s;
     z-index: 2;
   }
+}
+
+.dwnBtn {
+  height: 100%;
+  margin: auto;
+}
+.dwnBtn_container {
+  height: 10vh;
+  margin: auto;
 }
 
 @media (max-width: 765px) {
