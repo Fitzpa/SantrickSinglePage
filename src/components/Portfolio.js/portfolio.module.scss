@@ -23,6 +23,7 @@
 }
 @media (max-width: 900px) {
   .container {
+    min-height: 800px;
     flex-direction: column;
   }
   .videocontainer {

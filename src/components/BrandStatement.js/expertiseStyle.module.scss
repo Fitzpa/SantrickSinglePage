@@ -78,6 +78,11 @@
 
 @media (max-width: 715px) {
   .container {
+    min-height: 600px;
+  }
+}
+@media (max-width: 715px) {
+  .container {
     background-color: $color-white;
     height: 100%;
     width: 100%;
