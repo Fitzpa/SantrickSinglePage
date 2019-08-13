@@ -206,6 +206,9 @@
   }
 }
 @media (max-width: 599px) {
+  .container {
+    padding-top: 2rem;
+  }
   .linkBtns {
     float: none;
     margin-right: auto;
