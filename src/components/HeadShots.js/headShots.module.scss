@@ -59,45 +59,11 @@
   border: solid 3px #f7f9fb;
 }
 
-.aboutUsContainer {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: $color-white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  min-height: 50vh;
-  padding: 2rem 4rem;
-}
-.aboutLink {
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  margin: auto;
-  max-height: 4rem;
-  text-decoration: none;
-  &:hover {
-    .h2aboutStyle {
-      color: white;
-    }
-
-    .circleFill {
-      &:before {
-        top: 0;
-      }
-    }
-
-    .h2us {
-      color: Black;
-      transform: rotateY(360deg);
-    }
-  }
-}
-
-.abouttextContainer {
-  padding-bottom: 2rem;
+.paragraph {
+  margin: 0 auto;
+  width: 68%;
+  text-align: center;
+  height: 20vh;
 }
 .h2aboutStyle {
   color: $color-white;
@@ -155,11 +121,29 @@
 }
 
 @media (max-width: 765px) {
-  .thumbscontainer {
-    display: grid;
+  .thumbnails {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph {
     margin: auto;
-    width: 100%;
+    align-self: center;
+    width: 95%;
+    text-align: center;
+    height: 200px;
+  }
+  .thumbscontainer {
+    padding-top: 1rem;
     grid-template-columns: 1fr;
+    height: 700px;
+  }
+  .thumbnail {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
   }
   .h2aboutStyle {
     font-size: 1.5rem;
@@ -178,36 +162,12 @@
     overflow: hidden;
   }
 }
-@media (max-width: 500px) {
-  .aboutLink {
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .h2aboutStyle {
-    text-align: center;
-    margin: auto;
-    display: flex;
-  }
-  .h2us {
-    text-align: center;
-    min-width: 52px;
-  }
-  .circleFill {
-    margin: auto;
-    min-width: 52px;
-    display: flex;
-  }
-}
 @media (max-width: 603px) {
   .thumbnails {
-    min-height: 850px;
+    min-height: 1000px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
-    justify-content: space-evenly;
     padding-bottom: 2rem;
   }
   .thumbnail {

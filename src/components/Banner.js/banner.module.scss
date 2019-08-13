@@ -84,14 +84,18 @@
   height: auto;
   margin: auto;
 }
+.dwnBtn_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+}
 .dwnBtn {
   height: 100%;
   margin: auto;
+  width: 40px;
 }
-.dwnBtn_container {
-  height: 50px;
-  margin: auto;
-}
+
 @media (max-width: 1144px) {
   .h2_title_caption {
     font-size: 1.5rem;
@@ -127,7 +131,7 @@
     padding-bottom: 2rem;
   }
   .h2_title_caption {
-    padding-top: 1rem;
+    padding-top: 0;
     padding-bottom: 0;
     height: 80px;
   }
@@ -171,8 +175,11 @@
   }
 }
 @media (max-width: 538px) {
+  .Banner {
+    height: 100%;
+  }
   .Banner_container {
-    height: 600px;
+    height: 500px;
   }
   .container_left {
     height: 200px;
@@ -193,7 +200,8 @@
 }
 @media (max-width: 447px) {
   .Banner_container {
-    height: 600px;
+    height: 500px;
+    padding-bottom: 0;
   }
   .container_left {
     height: 200px;

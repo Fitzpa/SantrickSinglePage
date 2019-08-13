@@ -22,14 +22,7 @@ const HeadShots = () => {
             <h3 className={headShotStyles.name_title}>Louie Fitzpatrick</h3>
           </div>
         </div>
-        <p
-          style={{
-            margin: "0 auto",
-            width: "68%",
-            textAlign: "center",
-            height: "20vh",
-          }}
-        >
+        <p className={headShotStyles.paragraph}>
           Our primary focus is giving businesses and people a platform to tell
           their story to the individuals they want to connect with; helping to
           inspire the actions and create the change they desire.

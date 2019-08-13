@@ -46,6 +46,7 @@
     margin: 0 auto 40px auto;
     text-align: center;
     width: 50%;
+    line-height: 1.6;
   }
 }
 
@@ -72,6 +73,19 @@
 }
 
 @media (max-width: 715px) {
+  .container {
+    background-color: $color-white;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+  .container_columns {
+    background-color: $color-white;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
+  }
   .column_items {
     margin: 0 auto 30px auto;
   }
