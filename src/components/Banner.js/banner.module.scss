@@ -10,9 +10,8 @@
 }
 
 .Banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
   height: calc(100vh - 70px);
   position: relative;
   background: linear-gradient(
@@ -28,7 +27,6 @@
   width: 100%;
   margin: auto;
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -38,7 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 2rem;
+  padding: 4rem 0;
   align-items: center;
   align-self: center;
 }
