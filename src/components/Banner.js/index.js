@@ -33,10 +33,12 @@ const Banner = ({ title }) => {
             <h1 className={bannerStyles.h1_title}>Santrick Digital</h1>
           </div>
         </div>
-        <h2 className={bannerStyles.h2_title_caption}>
-          Creating web sites and social media strategies that work together as
-          one.
-        </h2>
+        <div className={bannerStyles.h2container}>
+          <h2 className={bannerStyles.h2_title_caption}>
+            Creating web sites and social media strategies that work together as
+            one.
+          </h2>
+        </div>
         <a href="#missionStatement" className={bannerStyles.dwnBtn_container}>
           <Pgdwnbtn className={bannerStyles.dwnBtn} />
         </a>
