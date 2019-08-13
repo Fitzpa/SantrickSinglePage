@@ -115,6 +115,9 @@ p {
 }
 
 @media (max-width: 900px) {
+  .statementContainer {
+    min-height: 400px;
+  }
   .statementContent {
     background-color: $color-black;
     color: $color-white;
