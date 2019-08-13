@@ -63,7 +63,7 @@
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  padding: 2rem 4rem;
+  padding: 2rem 4rem 0 4rem;
   margin: auto;
 }
 .titleContainer {
@@ -83,13 +83,18 @@
   filter: invert(91%) sepia(45%) saturate(2%) hue-rotate(69deg) brightness(109%)
     contrast(100%);
 }
-.dwnBtn {
-  height: 100%;
-  margin: auto;
-}
 .dwnBtn_container {
-  height: 50px;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+.dwnBtn {
+  height: 40px;
   margin: auto;
+  width: 40px;
 }
 .title {
   text-align: left;
