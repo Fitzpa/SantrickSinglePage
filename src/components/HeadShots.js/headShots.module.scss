@@ -5,6 +5,7 @@
   margin: auto;
 }
 .thumbscontainer {
+  padding-top: 30vh;
   height: 70vh;
   display: grid;
   margin: auto;
@@ -154,6 +155,12 @@
 }
 
 @media (max-width: 765px) {
+  .thumbscontainer {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
   .h2aboutStyle {
     font-size: 1.5rem;
   }
