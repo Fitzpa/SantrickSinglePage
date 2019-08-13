@@ -12,6 +12,7 @@
 .Banner {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   min-height: calc(100vh - 70px);
   height: 100%;
   position: relative;
