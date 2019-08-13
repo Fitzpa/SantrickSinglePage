@@ -78,12 +78,8 @@
 
 @media (max-width: 900px) {
   .container {
-    min-height: 800px;
-  }
-}
-@media (max-width: 715px) {
-  .container {
     background-color: $color-white;
+    min-height: 800px;
     height: 100%;
     width: 100%;
     padding: 2rem 0.5rem 0.5rem 0.5rem;
