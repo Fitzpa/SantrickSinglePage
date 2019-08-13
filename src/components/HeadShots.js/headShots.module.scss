@@ -99,7 +99,7 @@
   .thumbscontainer {
     padding-top: 1rem;
     grid-template-columns: 1fr 1fr;
-    height: 700px;
+    height: 600px;
   }
   .thumbnail {
     padding-bottom: 1rem;
@@ -122,5 +122,10 @@
     margin: 0 auto;
     flex-direction: column;
     padding: 2rem 0;
+  }
+  .thumbscontainer {
+    padding-top: 1rem;
+    grid-template-columns: 1fr;
+    height: 700px;
   }
 }
