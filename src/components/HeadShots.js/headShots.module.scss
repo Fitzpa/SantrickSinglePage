@@ -83,10 +83,11 @@
 
 @media (max-width: 900px) {
   .thumbnails {
-    min-height: 450px;
+    min-height: 400px;
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .paragraph {
     margin: auto;
