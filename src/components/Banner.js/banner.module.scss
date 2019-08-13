@@ -12,7 +12,8 @@
 .Banner {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
+  height: 100%;
   position: relative;
   background: linear-gradient(
     135deg,
