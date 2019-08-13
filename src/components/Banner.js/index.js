@@ -21,25 +21,23 @@ const Banner = ({ title }) => {
     <section id="mainBanner" className={bannerStyles.Banner_bg}>
       <div className={bannerStyles.Banner}>
         <div className={bannerStyles.Banner_container}>
-          <div className={bannerStyles.spinner_container}><img
-            id="spinner"
-            className={bannerStyles.spinner}
-            src={logo}
-            alt=""
-          />
+          <div className={bannerStyles.spinner_container}>
+            <img
+              id="spinner"
+              className={bannerStyles.spinner}
+              src={logo}
+              alt=""
+            />
           </div>
           <div className={bannerStyles.container_left}>
-            <h1 className={bannerStyles.h1_title}>SANTRICK</h1>
-            <h1 className={bannerStyles.h1_title}>DIGITAL</h1>
+            <h1 className={bannerStyles.h1_title}>SANTRICK DIGITAL</h1>
           </div>
         </div>
         <h2 className={bannerStyles.h2_title_caption}>
           We generate advertisements and web technologies that lead clients to
           your business
         </h2>
-        <a href="#missionStatement" className={bannerStyles.dwnBtn_container}>
-          <Pgdwnbtn className={bannerStyles.dwnBtn} />
-        </a>
+        <Pgdwnbtn className={bannerStyles.dwnBtn} />
       </div>
     </section>
   )

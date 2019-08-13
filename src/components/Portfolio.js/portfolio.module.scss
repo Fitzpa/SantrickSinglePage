@@ -1,12 +1,12 @@
 @import "../../styles/colors";
 
 .container {
-  background: #000;
-}
-.portfolio_container {
   background-color: $color-black;
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .dwnBtn {
   height: 100%;

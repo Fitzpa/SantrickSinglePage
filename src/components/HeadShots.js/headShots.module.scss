@@ -1,9 +1,16 @@
 @import "../../styles/colors";
 .thumbnails {
-  background-color: rgba(174, 223, 214, 0.9);
-  min-height: 470px;
+  background-color: rgba(174, 223, 214, 1);
+  min-height: 100vh;
   display: grid;
   margin: auto;
+  grid-template-columns: 1fr;
+}
+.thumbscontainer {
+  display: grid;
+  display: grid;
+  margin: auto;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 

@@ -3,6 +3,7 @@ import Layout from "../components/Layout.js"
 import Head from "../components/head"
 import Banner from "../components/Banner.js"
 import Portfolio from "../components/Portfolio.js/index.js"
+import Carousel from "../components/carousel/index.js"
 import BrandStatement from "../components/BrandStatement.js/index.js"
 import ContactPage from "../components/Contact.js/contact"
 
