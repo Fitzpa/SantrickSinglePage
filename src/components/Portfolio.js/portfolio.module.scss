@@ -18,16 +18,34 @@
   height: 10vh;
   margin: auto;
 }
-.videocontainer {
-  width: 50% !important;
-  height: 100% !important;
+.video_container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  width: 50%;
+  height: 100%;
+}
+.videocontent {
+  display: flex;
+  height: auto;
+  width: 100%;
+  min-width: 960px;
+  min-height: 566px;
+}
+@media (max-width: 1950px) {
+  .videocontent {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-width: 50vw;
+  }
 }
 @media (max-width: 900px) {
   .container {
     min-height: 800px;
     flex-direction: column;
   }
-  .videocontainer {
+  .videocontent {
     width: 100% !important;
     height: 50vh !important;
   }
