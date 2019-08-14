@@ -54,6 +54,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-145000399-1",
+      },
+    },
+    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: "2406786669645761",
