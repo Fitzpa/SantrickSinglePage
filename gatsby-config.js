@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Santrick`,
     subtitle: `Digital`,
+    description: `Web Development & digital & social advertising`,
     author: `Santrick Digital`,
   },
   plugins: [
@@ -50,6 +51,7 @@ module.exports = {
         start_url: `/`,
         theme_color: `#a2466c`,
         background_color: `#31708e`,
+        display: `standalone`,
         icon: `src/images/favicon-32x32.png`,
       },
     },
@@ -104,5 +106,6 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }
