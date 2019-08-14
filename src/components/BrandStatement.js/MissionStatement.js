@@ -14,16 +14,17 @@ const MissionStatement = () => {
 
           <div className={BrandStyles.items_container}>
             <p>
-              <strong>Guiding </strong>
+              <span className={BrandStyles.spanstyles}>Guiding</span>
               your business through the physical and technological world with
               effective digital advertising.
             </p>
             <p>
-              <strong>Producing </strong> user-friendly, fast, efficient web
-              services that will grow with your business.
+              <span className={BrandStyles.spanstyles}>Producing</span>
+              user-friendly, fast, efficient web services that will grow with
+              your business.
             </p>
             <p>
-              <strong>Connecting </strong>
+              <span className={BrandStyles.spanstyles}>Connecting</span>
               clients to your business, focusing on the future while maximizing
               your company’s potential.
             </p>
