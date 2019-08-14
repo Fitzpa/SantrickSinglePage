@@ -14,6 +14,8 @@ const Portfolio = () => {
           playing="false"
           loop="true"
           controls
+          volume="0"
+          muted="true"
         />
       </div>
     </section>
