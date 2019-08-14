@@ -11,7 +11,7 @@ const Portfolio = () => {
         <YouTubePlayer
           className={portfolioStyles.videocontent}
           url="https://www.youtube.com/embed/MFzCkIsnxVU"
-          playing="false"
+          playing="true"
           loop="true"
           controls
           volume="0"
