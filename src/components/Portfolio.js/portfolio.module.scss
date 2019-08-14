@@ -42,11 +42,18 @@
 }
 @media (max-width: 900px) {
   .container {
-    min-height: 800px;
+    min-height: 600px;
     flex-direction: column;
   }
+  .video_container {
+    justify-content: center;
+    width: 100%;
+    min-height: 20vh;
+  }
   .videocontent {
-    width: 100% !important;
-    height: 50vh !important;
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-width: 100vw;
   }
 }
