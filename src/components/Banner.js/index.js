@@ -35,7 +35,7 @@ const Banner = ({ title }) => {
         </div>
         <div className={bannerStyles.h2container}>
           <h2 className={bannerStyles.h2_title_caption}>
-            Creating web sites and social media strategies that work together as
+            Creating websites and social media strategies that work together as
             one.
           </h2>
         </div>
