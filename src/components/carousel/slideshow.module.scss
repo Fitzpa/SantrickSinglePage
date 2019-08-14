@@ -7,8 +7,34 @@
   top: 12px;
 }
 
+.slideshow {
+  margin: 15% auto auto auto;
+}
+
+@media (max-width: 1600px) {
+  .slideshow {
+    margin: 18% auto auto auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .slideshow {
+    margin: 22% auto auto auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .slideshow {
+    margin: 27% auto auto auto;
+  }
+}
+
 @media (max-width: 900px) {
+  .slideshow {
+    margin: 1rem auto auto auto;
+  }
   .container {
     width: 100%;
+    max-height: 700px;
   }
 }

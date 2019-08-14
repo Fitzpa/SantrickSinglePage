@@ -10,6 +10,7 @@ const SlideShow = () => {
   return (
     <div className={slideshowstyles.container}>
       <Carousel
+        className={slideshowstyles.slideshow}
         showThumbs="false"
         infiniteLoop="true"
         autoPlay="true"
