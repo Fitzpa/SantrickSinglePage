@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Santrick`,
     subtitle: `Digital`,
-    author: `Louie Fitzpatrick`,
+    author: `Santrick Digital`,
   },
   plugins: [
     {
