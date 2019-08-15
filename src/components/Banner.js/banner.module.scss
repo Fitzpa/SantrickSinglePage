@@ -214,6 +214,7 @@
 @media (max-width: 447px) {
   .Banner_container {
     padding-bottom: 0;
+    padding-top: 0;
   }
   .container_left {
     height: 200px;
@@ -229,12 +230,69 @@
     padding-bottom: 2rem;
   }
 }
-@media (max-width: 354px) {
+@media (max-width: 400px) {
+  .dwnBtn_container {
+    height: 100px;
+  }
+  .Banner {
+    min-height: 100vh;
+    height: 100%;
+  }
+  .Banner_container {
+    min-height: 75vh;
+    height: 100%;
+  }
   .h1_title {
     text-align: center;
     font-weight: 400;
     font-size: 4rem;
     margin: 0;
     max-width: 600px;
+    padding-bottom: 1rem;
+  }
+  .h2_title_caption {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .spinner {
+    margin: 0;
+    padding: 0;
+    &_container {
+      height: 250px;
+    }
+  }
+  .h2container {
+    height: 90px;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 350px) {
+  .container_left {
+    height: 130px;
+  }
+  .h1_title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0;
+    max-width: 600px;
+    padding-bottom: 1rem;
+  }
+  .h2container {
+    height: 90px;
+    margin: 2rem 0;
+  }
+  .h2_title_caption {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .spinner {
+    margin: 0;
+    &_container {
+      height: 250px;
+    }
+  }
+  .dwnBtn_container {
+    height: 100px;
   }
 }

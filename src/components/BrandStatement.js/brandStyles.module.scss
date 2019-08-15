@@ -155,3 +155,10 @@ p {
     }
   }
 }
+
+@media (max-width: 900px) {
+  .container {
+    min-height: 100vh;
+    height: 100%;
+  }
+}
